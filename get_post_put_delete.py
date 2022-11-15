@@ -4,7 +4,7 @@ from flask_restful import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
-# 創建一個陣列(創一個名為apple物品當測試)，存放品項
+#創建存放資料用list
 items = [
     {
         "name": "apple",
